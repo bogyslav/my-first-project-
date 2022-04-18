@@ -1,0 +1,142 @@
+
+*{padding: 0;margin: 0;border: 0;}
+*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus, :active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+
+     display: flex;
+    flex-direction: column;
+}
+.container{
+    min-width: 1080px;
+    margin: 0px auto;
+}
+.content {
+    flex: 1 1 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navigation-list {
+    display: flex;
+    font-family: Lato;
+    /* вынести */
+    font-size: 13.5px;
+    /* вынести */
+    text-transform: uppercase;
+    color: #868686;
+    /* вынести */
+}
+
+.header__navigation-list-item{
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .what {}
+
+.what__row {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #709dca;
+}
+
+.what body {}
+
+.what__title {
+    justify-content: center;
+    display: flex;
+    display: flex;
+    font-family: Gotham;
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+}
+
+.what__list {
+    justify-content: center;
+    display: flex;
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.what__text {
+    justify-content: center;
+    display: flex;
+    border: 1px solid #868686;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #a9a9a9;
+}
+
+.what__image {
+    background: url(/img/rectangle_4_65.jpg) 0 0 no-repeat, url(/img/vector_smart_object_63.jpg) 50%/cover no-repeat;
+
+} */
+
+.footer {
+    background-color: #709dca;
+   
+    
+}
+.footer__row {
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
